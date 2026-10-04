@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024"><defs>
+<radialGradient id="bg" cx="50%" cy="42%" r="70%"><stop offset="0" stop-color="#4b2a8c"/><stop offset="0.55" stop-color="#22134a"/><stop offset="1" stop-color="#0d0820"/></radialGradient>
+<radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ffd76a" stop-opacity="0.55"/><stop offset="1" stop-color="#ffd76a" stop-opacity="0"/></radialGradient>
+<linearGradient id="blade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9aa6b8"/><stop offset="0.5" stop-color="#f4f7fb"/><stop offset="1" stop-color="#7d889b"/></linearGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff1a6"/><stop offset="0.5" stop-color="#ffc42a"/><stop offset="1" stop-color="#b86f00"/></linearGradient>
+<linearGradient id="shield" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2f7cf6"/><stop offset="0.55" stop-color="#1546b8"/><stop offset="1" stop-color="#0a2466"/></linearGradient>
+<linearGradient id="grip" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5a2e12"/><stop offset="0.5" stop-color="#9a5a2a"/><stop offset="1" stop-color="#4a240c"/></linearGradient>
+</defs><rect width="1024" height="1024" fill="url(#bg)"/>
+<g fill="#ffe9a8">
+<circle cx="170" cy="200" r="6"/><circle cx="860" cy="170" r="5"/><circle cx="880" cy="820" r="6"/><circle cx="140" cy="840" r="5"/>
+<circle cx="300" cy="110" r="3"/><circle cx="760" cy="930" r="3"/><circle cx="930" cy="480" r="3"/><circle cx="90" cy="520" r="3"/>
+</g><g transform="translate(512 512) scale(0.8) translate(-512 -512)">
+<circle cx="512" cy="500" r="380" fill="url(#glow)"/>
+<!-- sword -->
+<polygon points="512,130 546,200 546,770 478,770 478,200" fill="url(#blade)" stroke="#2b3240" stroke-width="10" stroke-linejoin="round"/>
+<line x1="512" y1="200" x2="512" y2="740" stroke="#9aa6b8" stroke-width="8"/>
+<rect x="382" y="752" width="260" height="40" rx="18" fill="url(#gold)" stroke="#5a3200" stroke-width="10"/>
+<rect x="490" y="792" width="44" height="80" rx="8" fill="url(#grip)" stroke="#2a1404" stroke-width="8"/>
+<circle cx="512" cy="892" r="28" fill="url(#gold)" stroke="#5a3200" stroke-width="10"/>
+<!-- shield -->
+<path d="M512 250 L732 318 Q736 590 512 770 Q288 590 292 318 Z" fill="url(#shield)" stroke="url(#gold)" stroke-width="22" stroke-linejoin="round"/>
+<path d="M512 250 L732 318 Q736 590 512 770 Q288 590 292 318 Z" fill="none" stroke="#5a3200" stroke-width="4" stroke-linejoin="round"/>
+<path d="M512 292 L692 348 Q694 572 512 724 Q330 572 332 348 Z" fill="none" stroke="#7fb2ff" stroke-width="6" opacity="0.6"/>
+<path d="M360 360 Q430 330 500 320" stroke="#ffffff" stroke-width="16" stroke-linecap="round" fill="none" opacity="0.45"/>
+<!-- crown emblem -->
+<g transform="translate(0 20)">
+<path d="M400 560 L378 420 L452 478 L512 380 L572 478 L646 420 L624 560 Z" fill="url(#gold)" stroke="#5a3200" stroke-width="10" stroke-linejoin="round"/>
+<rect x="394" y="550" width="236" height="40" rx="10" fill="url(#gold)" stroke="#5a3200" stroke-width="10"/>
+<circle cx="378" cy="414" r="15" fill="#fff1a6" stroke="#5a3200" stroke-width="6"/>
+<circle cx="512" cy="372" r="17" fill="#fff1a6" stroke="#5a3200" stroke-width="6"/>
+<circle cx="646" cy="414" r="15" fill="#fff1a6" stroke="#5a3200" stroke-width="6"/>
+<circle cx="512" cy="520" r="15" fill="#e3263a" stroke="#5a3200" stroke-width="5"/>
+<circle cx="450" cy="530" r="10" fill="#2bd18a" stroke="#5a3200" stroke-width="4"/>
+<circle cx="574" cy="530" r="10" fill="#2bd18a" stroke="#5a3200" stroke-width="4"/>
+</g>
+</g></svg>
